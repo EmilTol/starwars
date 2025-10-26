@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Yoda",
+    "alliance": "Jedi"
+  },
+  {
+    "id": "2",
+    "name": "Han Solo",
+    "alliance": "Resistance"
+  },
+  {
+    "id": "3",
+    "name": "Darth Vader",
+    "alliance": "Sith"
+  }
+]
