@@ -1,8 +1,12 @@
 const charService = require("../services/charService");
 
 async function getAll(req, res) {
-    const characters = await charService.getChars();
-    res.json(characters);
+    try {
+        const characters = await charService.getChars();
+        res.status(200).json(characters);
+    } catch (error) {
+        console.log(error);
+    }
 }
 
 async function create (req, res) {

@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 const charController = require("../controllers/charController");
-
+const {validateChar} = require("../middleware/validate");
 
 router.get('/api/chars', charController.getAll);
 
