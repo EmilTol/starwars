@@ -13,5 +13,20 @@
     "id": "3",
     "name": "Darth Vader",
     "alliance": "Sith"
+  },
+  {
+    "id": "4",
+    "name": "Test",
+    "role": "Sith"
+  },
+  {
+    "id": "5",
+    "name": "Test2",
+    "role": "Sith"
+  },
+  {
+    "id": "6",
+    "name": "Test3",
+    "role": "Jedi"
   }
 ]

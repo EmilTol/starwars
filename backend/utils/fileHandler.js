@@ -18,4 +18,13 @@ async function readChars() {
     }
 }
 
-module.exports = {readChars};
+async function writeChars(chars) {
+    try {
+        await fs.writeFile(CHAR_FILE, JSON.stringify(chars, null, 2), "utf-8" );
+
+    } catch (error) {
+        console.log("eorrrororororrororo");
+    }
+}
+
+module.exports = {readChars, writeChars};
