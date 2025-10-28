@@ -7,12 +7,12 @@ function validateChar (req, res, next)  {
         return res.status(400).json({ error: 'Invalid character name.' });
     }
 
-    if (!charData.role) {
-        return res.status(400).json({ error: 'Invalid char.role' });
+    if (!charData.alliance) {
+        return res.status(400).json({ error: 'Invalid char.alliance' });
     }
 
     const validRoles = ["Jedi", "Sith", "Resistance"];
-    if (!validRoles.includes(charData.role.trim())) {
+    if (!validRoles.includes(charData.alliance.trim())) {
         return res.status(400).json({ error: "Must be Jedi, Sith or Resistance" });
     }
 

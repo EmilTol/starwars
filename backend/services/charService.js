@@ -18,7 +18,7 @@ async function createChar (charData) {
     const newChar = {
         id: String(maxId + 1),
         name: charData.name.trim(),
-        role: charData.role.trim()
+        alliance: charData.alliance.trim()
     };
 
     chars.push(newChar);

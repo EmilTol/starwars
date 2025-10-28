@@ -17,16 +17,16 @@
   {
     "id": "4",
     "name": "Test",
-    "role": "Sith"
+    "alliance": "Sith"
   },
   {
     "id": "5",
     "name": "Test2",
-    "role": "Sith"
+    "alliance": "Sith"
   },
   {
     "id": "6",
     "name": "Test3",
-    "role": "Jedi"
+    "alliance": "Jedi"
   }
 ]
